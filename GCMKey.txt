@@ -1,0 +1,12 @@
+40877212325
+AIzaSyDoYTXPHZW7ouqXxolocaBN8EwLgX1Jgtc
+CC:E8:E7:6A:FA:DC:0C:74:1E:CC:1A:8B:43:CA:D6:C3:B5:98:5F:3D
+cyA3-AiJV9A:APA91bEnEDK-A0YBn_aUrWKz-KuvhD3zvnbmwstVTna8OjpeJzCl7xlX1rjd4PCDNNitnlJnrldrwVHdKkUNUKcjaKM6Hlt7GGJKgJvGHl-7_3b5xhDsI6xwJPuSvfbriAuqXK6y8c3w
+
+//------------------------------------python code
+
+from gcm import GCM
+gcm = GCM("AIzaSyDoYTXPHZW7ouqXxolocaBN8EwLgX1Jgtc", debug=True)
+token = "cyA3-AiJV9A:APA91bEnEDK-A0YBn_aUrWKz-KuvhD3zvnbmwstVTna8OjpeJzCl7xlX1rjd4PCDNNitnlJnrldrwVHdKkUNUKcjaKM6Hlt7GGJKgJvGHl-7_3b5xhDsI6xwJPuSvfbriAuqXK6y8c3w"
+data = {'name' : 'My name is ... ' }
+response = gcm.plaintext_request(registration_id=token, data=data)

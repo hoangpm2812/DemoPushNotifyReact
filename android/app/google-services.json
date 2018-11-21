@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "40877212325",
+    "firebase_url": "https://kudo-fb5b2.firebaseio.com",
+    "project_id": "kudo-fb5b2",
+    "storage_bucket": "kudo-fb5b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40877212325:android:a59d8bc1bea0acd9",
+        "android_client_info": {
+          "package_name": "com.demopushnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40877212325-1skhbtp2ogo8u3stng4ls1ogdmlsr67a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demopushnotifications",
+            "certificate_hash": "cce8e76afadc0c741ecc1a8b43cad6c3b5985f3d"
+          }
+        },
+        {
+          "client_id": "40877212325-ogmhqr7bj1v792idtrjubu9ha64rlvc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBNrp32d9tZiOYOPks6-Ixrqo_gwBHqwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40877212325-ogmhqr7bj1v792idtrjubu9ha64rlvc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
